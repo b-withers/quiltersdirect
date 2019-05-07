@@ -13,6 +13,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar{
+    background-color: #f5f5f5 !important;
+    margin-bottom: 50px;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #f5f5f5;
+}
+
 .box {
     height: 275px;
     background-color: lightblue;
@@ -30,7 +41,6 @@ body {
     box-shadow: 6px 6px 12px #888888;
 }
 
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -44,3 +54,26 @@ body {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
+
+@media only screen and (max-width: 1000px){
+    .box{
+        height: 225px;
+        opacity: .99;
+    }
+
+    .navbar{
+        margin-bottom: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box{
+        height: 200px;
+        opacity: .99;
+    }
+
+    .navbar{
+        margin-bottom: 0px !important;
+    }
+  }
