@@ -15,11 +15,19 @@ body {
 
 .box {
     height: 250px;
-    background-color: beige;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
+    opacity: .7;
+    font-weight: 900;
+    font-size: 1.50rem;
+}
+
+.box:hover{
+    opacity: .99;
+    box-shadow: 6px 6px 12px #888888;
 }
 
 
@@ -32,7 +40,7 @@ body {
 }
 
 .mainbody{
-    background-color: darkgray;
+    background-color: white;
     padding-top: 35px;
     padding-bottom: 35px;
 }
