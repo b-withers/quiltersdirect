@@ -55,7 +55,7 @@ body {
     padding-bottom: 35px;
 }
 
-
+/* TABLET MEDIA QUERIES */
 @media only screen and (max-width: 1000px){
     .box{
         height: 225px;
@@ -67,7 +67,8 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* PHONE MEDIA QUERIES */
+@media only screen and (max-width: 500px) {
     .box{
         height: 200px;
         opacity: .99;
