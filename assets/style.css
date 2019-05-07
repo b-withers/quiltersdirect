@@ -14,12 +14,12 @@ body {
 }
 
 .box {
-    height: 250px;
+    height: 275px;
     background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
     opacity: .7;
     font-weight: 900;
     font-size: 1.50rem;
