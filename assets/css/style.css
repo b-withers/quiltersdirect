@@ -9,6 +9,14 @@ body {
     margin-bottom: 60px;
 }
 
+a:link {
+  color: #6102a6;
+}
+
+a:visited {
+  color: #6102a6;
+}
+
 .body-wrapper {
     font-family: 'Montserrat', sans-serif;
 }
@@ -33,7 +41,7 @@ body {
     margin: 15px;
     opacity: .7;
     font-weight: 900;
-    font-size: 1.50rem;
+    font-size: 1.65rem;
     box-shadow: 2px 2px 4px #888888;
 }
 
