@@ -5,6 +5,11 @@ html {
     min-height: 100%;
 }
 
+.navtext{
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
 body {
     margin-bottom: 60px;
 }
