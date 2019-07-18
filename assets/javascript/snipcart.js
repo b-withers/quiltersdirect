@@ -1,3 +1,35 @@
 $(document).ready(function(){
-  console.log('hi')
+  // Longarm Clicking
+  $("#longarm-one-button").click(function(){
+    $("#longarm-one-button").hide();
+    $(".longarm-two").hide();
+    $(".longarm-three").hide();
+    $(".frame-one").show();
+    $(".frame-two").show();
+  });
+  $("#longarm-two-button").click(function(){
+    $("#longarm-two-button").hide();
+    $(".longarm-one").hide();
+    $(".longarm-three").hide();
+    $(".frame-one").show();
+    $(".frame-two").show();
+  });
+  $("#longarm-three-button").click(function(){
+    $("#longarm-three-button").hide();
+    $(".longarm-two").hide();
+    $(".longarm-one").hide();
+    $(".frame-one").show();
+    $(".frame-two").show();
+  });
+// Frame Clicking
+  $("#frame-one-button").click(function(){
+    $("#frame-one-button").hide();
+    $(".frame-two").hide();
+    $(".checkout-button").show();
+  });
+  $("#frame-two-button").click(function(){
+    $("#frame-two-button").hide();
+    $(".frame-one").hide();
+    $(".checkout-button").show();
+  });
 });
