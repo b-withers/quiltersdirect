@@ -14,12 +14,13 @@
   crossorigin="anonymous"></script>
 	<!-- External css -->
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/shopping.css">
 	<!-- Font-Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<!--Snipcart info-->
 	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
-		data-api-key="OTY2OWQ3MjgtNmMyZC00YWY5LWJhNGYtNTMzZDUzZmNhYTQwNjM2OTIyNzgyODE4NDMxNTI0" id="snipcart"></script>
+		data-api-key="OTY2OWQ3MjgtNmMyZC00YWY5LWJhNGYtNTMzZDUzZmNhYTQwNjM2OTIyNzgyODE4NDMxNTI0" id="snipcart" data-autopop="false"></script>
 	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
 	<!--jQuery CDN-->
 	
@@ -68,30 +69,89 @@
 
 		<div class="container mainbody">
 			<div class="row justify-content-center">
-				<div class="col-lg-3 col-md-12 col-sm-12 text-center box">
-					<a href="../checkout/longarm.html">LONGARM #1</a>
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center box longarm-one">
+					LONGARM #1
+					<button
+						id="longarm-one-button"
+						class="snipcart-add-item"
+						data-item-id="1"
+						data-item-name="longarm-one"
+						data-item-price="8999.00"
+						data-item-weight="200"
+						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
+						data-item-description="Longarm one description">
+						SELECT
+					</button>
 				</div>
 
-				<div class="col-lg-3 col-md-12 col-sm-12 text-center box">
-					<a href="./landing/frames.html">LOMGARM #2</a>
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center box longarm-two">
+					LOMGARM #2
+					<button
+						id="longarm-two-button"
+						class="snipcart-add-item"
+						data-item-id="2"
+						data-item-name="longarm-two"
+						data-item-price="8999.00"
+						data-item-weight="200"
+						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
+						data-item-description="Longarm one description">
+						SELECT
+					</button>
 				</div>
 
-				<div class="col-lg-3 col-md-12 col-sm-12 text-center box">
-					<a href="./landing/automation.html">LONGARM #3</a>
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center box longarm-three">
+					LONGARM #3
+					<button
+						id="longarm-three-button"
+						class="snipcart-add-item"
+						data-item-id="3"
+						data-item-name="longarm-three"
+						data-item-price="8999.00"
+						data-item-weight="200"
+						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
+						data-item-description="Longarm one description">
+						SELECT
+					</button>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center box frame frame-one">
+					Frame #1
+					<button
+						id="frame-one-button"
+						class="snipcart-add-item"
+						data-item-id="4"
+						data-item-name="frame-one"
+						data-item-price="8999.00"
+						data-item-weight="200"
+						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
+						data-item-description="Longarm one description">
+						SELECT
+					</button>
+				</div>
+
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center box frame frame-two">
+					Frame #2
+					<button
+						id="frame-two-button"
+						class="snipcart-add-item"
+						data-item-id="5"
+						data-item-name="frame-two"
+						data-item-price="8999.00"
+						data-item-weight="200"
+						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
+						data-item-description="Longarm one description">
+						SELECT
+					</button>
 				</div>
 			</div>
 
 			<div class="container mainbody">
 					<div class="row justify-content-center">
 							<button
-								class="snipcart-add-item"
-								data-item-id="2"
-								data-item-name="Bacon"
-								data-item-price="3.00"
-								data-item-weight="20"
-								data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
-								data-item-description="Some fresh bacon">
-								Buy bacon
+								class="snipcart-checkout checkout-button"
+							>
+								CLICK HERE TO CHECKOUT
 						</button>
 					</div>
 			</div>

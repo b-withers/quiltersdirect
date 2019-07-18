@@ -1,0 +1,25 @@
+.box {
+  height: 50px;
+  background-color: lavender;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  opacity: .7;
+  font-weight: 900;
+  font-size: 1.65rem;
+  box-shadow: 2px 2px 4px #888888;
+}
+
+.box:hover{
+  opacity: .99;
+  box-shadow: 6px 6px 12px #888888;
+}
+
+.frame {
+  display: none;
+}
+
+.checkout-button {
+  display: none;
+}
