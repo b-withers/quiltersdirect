@@ -1,0 +1,35 @@
+.navtext {
+	font-size: .8rem;
+	font-weight: bolder;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.navbar {
+	background-color: #f5f5f5 !important;
+	margin-bottom: 50px;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+	font-weight: 800;
+	background-color: #f5f5f5;
+}
+
+/* TABLET MEDIA QUERIES */
+@media only screen and (max-width: 1000px) {
+	.navbar {
+		margin-bottom: 0px !important;
+	}
+
+}
+
+/* PHONE MEDIA QUERIES */
+@media only screen and (max-width: 500px) {
+	.navbar {
+		margin-bottom: 0px !important;
+	}
+
+}

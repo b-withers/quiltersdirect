@@ -5,14 +5,7 @@ html {
     min-height: 100%;
 }
 
-.navtext{
-    font-size: .8rem;
-    font-weight: bolder;
-}
 
-.active{
-	text-decoration: underline;
-}
 
 body {
     margin-bottom: 60px;
@@ -30,16 +23,7 @@ a:visited {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
-    background-color: #f5f5f5 !important;
-    margin-bottom: 50px;
-}
 
-.navbar-brand{
-    font-size: 1.5rem;
-    font-weight: 800;
-    background-color: #f5f5f5;
-}
 
 .box {
     height: 275px;
