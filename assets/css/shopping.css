@@ -1,3 +1,76 @@
+/* To adjust the width of the border follow the width adjust steps below */
+.hex2 {
+  position: relative;
+  z-index: 1;
+  margin: 80px 10px;
+}
+
+.hex2,
+.hex2:after,
+.hex2:before {
+  border-color: red;
+  /* Width adjust 1 */
+  border-width: 1px;
+  border-style: solid;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  height: 50px;
+  /* Width adjust 3 */
+  width: 86.2px;
+}
+
+.hex2:after,
+.hex2:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  /* Width adjust 2 */
+  left: -1px;
+  z-index: -1;
+}
+
+.hex2:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.hex2:before {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+/* Hover effect for hexagon to change colors */
+.hex2:hover,
+.hex2:hover:after,
+.hex2:hover:before {
+  background: red;
+}
+
+/* Hover effect for hexagon to rotate */
+.hex-container {
+  display: inline-block;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.hex-container:hover {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
 .box {
   height: 50px;
   background-color: lavender;
