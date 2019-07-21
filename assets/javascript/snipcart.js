@@ -4,61 +4,79 @@ $(document).ready(function(){
     $("#longarm-one-button").hide();
     $(".longarm-two").hide();
     $(".longarm-three").hide();
+    $(".number-one").hide();
     $(".frame-one").show();
     $(".frame-two").show();
+    $(".check-one").show();
   });
   $("#longarm-two-button").click(function(){
     $("#longarm-two-button").hide();
     $(".longarm-one").hide();
     $(".longarm-three").hide();
+    $(".number-one").hide();
     $(".frame-one").show();
     $(".frame-two").show();
+    $(".check-one").show();
   });
   $("#longarm-three-button").click(function(){
     $("#longarm-three-button").hide();
     $(".longarm-two").hide();
     $(".longarm-one").hide();
+    $(".number-one").hide();
     $(".frame-one").show();
     $(".frame-two").show();
+    $(".check-one").show();
   });
   
 // Frame Clicking
   $("#frame-one-button").click(function(){
     $("#frame-one-button").hide();
     $(".frame-two").hide();
+    $(".number-two").hide();
     $(".automation-one").show();
     $(".automation-two").show();
+    $(".check-two").show();
   });
   $("#frame-two-button").click(function(){
     $("#frame-two-button").hide();
     $(".frame-one").hide();
+    $(".number-two").hide();
     $(".automation-one").show();
     $(".automation-two").show();
+    $(".check-two").show();
   });
 
   // Automation Clicking
   $("#automation-one-button").click(function(){
     $("#automation-one-button").hide();
     $(".automation-two").hide();
+    $(".number-three").hide();
     $(".accessories-package-one").show();
     $(".accessories-package-two").show();
+    $(".check-three").show();
   });
   $("#automation-two-button").click(function(){
     $("#automation-two-button").hide();
     $(".automation-one").hide();
+    $(".number-three").hide();
     $(".accessories-package-one").show();
     $(".accessories-package-two").show();
+    $(".check-three").show();
   });
 
-// Accessorie-Packages Clicking
+// Accessories-Packages Clicking
   $("#accessories-package-one-button").click(function(){
     $("#accessories-package-one-button").hide();
     $(".accessories-package-two").hide();
+    $(".number-four").hide();
     $(".checkout-button").show();
+    $(".check-four").show();
   });
   $("#accessories-package-two-button").click(function(){
     $("#accessories-package-two-button").hide();
     $(".accessories-package-one").hide();
+    $(".number-four").hide();
     $(".checkout-button").show();
+    $(".check-four").show();
   });
 });
