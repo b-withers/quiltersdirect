@@ -1,41 +1,66 @@
+.shopping-header {
+  font-size: 2em;
+  font-weight: 900;
+  color: #624E78;
+  padding-bottom: 20px;
+}
+
+.diamonds-row {
+  padding-bottom: 25px;
+}
+
 /* Diamond and Rectangle */
 .diamond-wrapper {
   display: flex;
   justify-content: center;
+  padding-right: 140px;
 }
 
 .diamond {
+  transform: rotate(45deg);
+  z-index: 1;
   width: 50px;
   height: 50px;
-  border: 1px solid purple;
-  transform: rotate(45deg);
+  border: 1px solid #624E78;
+  background-color: #624E78;
 }
 
 .rectangle {
-  width: 150px;
-  height: 30px;
-  border: 1px solid purple;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
   position: absolute;
   top: 20%;
-  left: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  left: 30%;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #624E78;
+  background-color: #e6e6fa;
+  color: #624E78;
+}
+
+.number {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  /* top: 1%;
+  font-weight: 900; */
+  font-size: 2em;
 }
 
 .rectangle-one {
-  
+  padding-left: 50px;
 }
 
 .rectangle-two {
-
+  padding-left: 60px;
 }
 
 .rectangle-three {
-
+  padding-left: 40px;
 }
 .rectangle-four {
-
+  padding-left: 40px;
 }
 
 
