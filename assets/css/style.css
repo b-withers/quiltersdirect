@@ -207,6 +207,18 @@ a:visited {
 	box-sizing: border-box;
 }
 
+.acc-box {
+	height: 150px;
+	background-color: lavender;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	border-style: solid;
+    border-color: #f3d5dc;
+    border-width: 5px;
+  }
+
 /* TABLET MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
 	.box {
