@@ -41,7 +41,7 @@ html {
 .jumbo-text {
 	color: white;
 	position: relative;
-	top: 30%;
+	top: 20%;
 	text-shadow: 2px 2px #624E78;
 }
 
@@ -237,6 +237,10 @@ a:visited {
 @media only screen and (max-width: 500px) {
 	.jumbotron-hero {
 		height: 250px;
+	}
+
+	.header-text{
+		font-size: 4rem !important;
 	}
 
 	.jumbo-text {
