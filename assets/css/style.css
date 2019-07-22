@@ -6,10 +6,10 @@ html {
 	min-height: 100%;
 }
 
-.jumbo-text{
-	color: white; 
-	position: relative; 
-	top: 30%; 
+.jumbo-text {
+	color: white;
+	position: relative;
+	top: 30%;
 	text-shadow: 2px 2px #624E78;
 }
 
@@ -135,8 +135,11 @@ a:visited {
 		height: 250px;
 	}
 
-	.jumbo-text{
-		top: 15%; 
+	.jumbo-text {
+		color: white;
+		position: relative;
+		top: 15%;
+		text-shadow: 2px 2px #624E78;
 	}
 
 	.box {
