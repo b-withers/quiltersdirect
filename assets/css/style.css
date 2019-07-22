@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
 
+.body-wrapper {
+	font-family: 'Montserrat', sans-serif;
+}
+
 html {
 	position: relative;
 	min-height: 100%;
+}
+
+.jumbotron {
+	position: relative;
+	overflow: hidden;
+	background-color: black;
+}
+
+.jumbotron video {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	/*  object-fit is not supported on IE  */
+	object-fit: cover;
+	opacity: 0.8;
+}
+
+.jumbotron .container {
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+
+.jumbotron-hero {
+	height: 400px;
+	background-size: cover;
+
 }
 
 .jumbo-text {
@@ -32,26 +64,130 @@ a:visited {
 	color: #624E78;
 }
 
-.body-wrapper {
-	font-family: 'Montserrat', sans-serif;
+.home-text {
+	color: white !important;
+	text-shadow: 2px 2px #624E78;
+	font-weight: bolder;
 }
 
-.box {
+.machine-home {
 	height: 275px;
-	background-color: #dfd6f0;
+	background-image: url(../images/machines/machine-1.jpg);
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 15px;
-	opacity: .7;
+	opacity: .8;
 	font-weight: 900;
-	font-size: 1.65rem;
-	box-shadow: 2px 2px 4px #888888;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
 }
 
-.box:hover {
+.machine-home:hover {
 	opacity: .99;
-	box-shadow: 6px 6px 12px #888888;
+	box-shadow: 6px 6px 12px #464646;
+}
+
+.frame-home {
+	height: 275px;
+	background-image: url(../images/frames/frame-1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	opacity: .8;
+	font-weight: 900;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
+}
+
+.frame-home:hover {
+	opacity: .99;
+	box-shadow: 6px 6px 12px #464646;
+}
+
+.acc-home {
+	height: 275px;
+	background-image: url(../images/accessories/acc-1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	opacity: .8;
+	font-weight: 900;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
+}
+
+.acc-home:hover {
+	opacity: .99;
+	box-shadow: 6px 6px 12px #464646;
+}
+
+.tutorial-home {
+	height: 275px;
+	background-image: url(../images/tutorials/tutorial-1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	opacity: .8;
+	font-weight: 900;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
+}
+
+.tutorial-home:hover {
+	opacity: .99;
+	box-shadow: 6px 6px 12px #464646;
+}
+
+.automation-home {
+	height: 275px;
+	background-image: url(../images/automation/automation-1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	opacity: .8;
+	font-weight: 900;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
+}
+
+.automation-home:hover {
+	opacity: .99;
+	box-shadow: 6px 6px 12px #464646;
+}
+
+.warranty-home {
+	height: 275px;
+	background-image: url(../images/warranty/warranty-1.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	opacity: .8;
+	font-weight: 900;
+	font-size: 2rem;
+	box-shadow: 3px 3px 6px #303030;
+	border-radius: 15px;
+}
+
+.warranty-home:hover {
+	opacity: .99;
+	box-shadow: 6px 6px 12px #464646;
 }
 
 .footer {
@@ -71,41 +207,9 @@ a:visited {
 	box-sizing: border-box;
 }
 
-.jumbotron {
-
-	position: relative;
-	overflow: hidden;
-	background-color: black;
-}
-
-.jumbotron video {
-
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	/*  object-fit is not supported on IE  */
-	object-fit: cover;
-	opacity: 0.8;
-}
-
-.jumbotron .container {
-	text-align: center;
-	z-index: 2;
-	position: relative;
-}
-
-.jumbotron-hero {
-
-	height: 400px;
-	background-size: cover;
-
-}
-
 /* TABLET MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
 	.box {
-		height: 225px;
 		opacity: .99;
 	}
 
@@ -143,7 +247,6 @@ a:visited {
 	}
 
 	.box {
-		height: 200px;
 		opacity: .99;
 	}
 
