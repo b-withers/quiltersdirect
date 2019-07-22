@@ -1,4 +1,8 @@
 $(document).ready(function(){
+  $(".diamond-one").css("background-color", "#FFFF99");
+  $(".rectangle-one").css("background-color", "#FFFF99");
+  $(".number-one").css("color", "#624e78");
+
   // Longarm Clicking
   $("#longarm-one-button").click(function(){
     $("#longarm-one-button").hide();
@@ -8,6 +12,12 @@ $(document).ready(function(){
     $(".frame-one").show();
     $(".frame-two").show();
     $(".check-one").show();
+    $(".diamond-one").css("background-color", "#624E78");
+    $(".rectangle-one").css("background-color", "#e6e6fa");
+    $(".number-one").css("color", "white");
+    $(".diamond-two").css("background-color", "#FFFF99");
+    $(".rectangle-two").css("background-color", "#FFFF99");
+    $(".number-two").css("color", "#624e78");
   });
   $("#longarm-two-button").click(function(){
     $("#longarm-two-button").hide();
@@ -17,6 +27,12 @@ $(document).ready(function(){
     $(".frame-one").show();
     $(".frame-two").show();
     $(".check-one").show();
+    $(".diamond-one").css("background-color", "#624E78");
+    $(".rectangle-one").css("background-color", "#e6e6fa");
+    $(".number-one").css("color", "white");
+    $(".diamond-two").css("background-color", "#FFFF99");
+    $(".rectangle-two").css("background-color", "#FFFF99");
+    $(".number-two").css("color", "#624e78");
   });
   $("#longarm-three-button").click(function(){
     $("#longarm-three-button").hide();
@@ -26,6 +42,12 @@ $(document).ready(function(){
     $(".frame-one").show();
     $(".frame-two").show();
     $(".check-one").show();
+    $(".diamond-one").css("background-color", "#624E78");
+    $(".rectangle-one").css("background-color", "#e6e6fa");
+    $(".number-one").css("color", "white");
+    $(".diamond-two").css("background-color", "#FFFF99");
+    $(".rectangle-two").css("background-color", "#FFFF99");
+    $(".number-two").css("color", "#624e78");
   });
   
 // Frame Clicking
@@ -36,6 +58,12 @@ $(document).ready(function(){
     $(".automation-one").show();
     $(".automation-two").show();
     $(".check-two").show();
+    $(".diamond-two").css("background-color", "#624E78");
+    $(".rectangle-two").css("background-color", "#e6e6fa");
+    $(".number-two").css("color", "white");
+    $(".diamond-three").css("background-color", "#FFFF99");
+    $(".rectangle-three").css("background-color", "#FFFF99");
+    $(".number-three").css("color", "#624e78");
   });
   $("#frame-two-button").click(function(){
     $("#frame-two-button").hide();
@@ -44,6 +72,12 @@ $(document).ready(function(){
     $(".automation-one").show();
     $(".automation-two").show();
     $(".check-two").show();
+    $(".diamond-two").css("background-color", "#624E78");
+    $(".rectangle-two").css("background-color", "#e6e6fa");
+    $(".number-two").css("color", "white");
+    $(".diamond-three").css("background-color", "#FFFF99");
+    $(".rectangle-three").css("background-color", "#FFFF99");
+    $(".number-three").css("color", "#624e78");
   });
 
   // Automation Clicking
@@ -54,6 +88,12 @@ $(document).ready(function(){
     $(".accessories-package-one").show();
     $(".accessories-package-two").show();
     $(".check-three").show();
+    $(".diamond-three").css("background-color", "#624E78");
+    $(".rectangle-three").css("background-color", "#e6e6fa");
+    $(".number-three").css("color", "white");
+    $(".diamond-four").css("background-color", "#FFFF99");
+    $(".rectangle-four").css("background-color", "#FFFF99");
+    $(".number-four").css("color", "#624e78");
   });
   $("#automation-two-button").click(function(){
     $("#automation-two-button").hide();
@@ -62,6 +102,12 @@ $(document).ready(function(){
     $(".accessories-package-one").show();
     $(".accessories-package-two").show();
     $(".check-three").show();
+    $(".diamond-three").css("background-color", "#624E78");
+    $(".rectangle-three").css("background-color", "#e6e6fa");
+    $(".number-three").css("color", "white");
+    $(".diamond-four").css("background-color", "#FFFF99");
+    $(".rectangle-four").css("background-color", "#FFFF99");
+    $(".number-four").css("color", "#624e78");
   });
 
 // Accessories-Packages Clicking
@@ -71,6 +117,9 @@ $(document).ready(function(){
     $(".number-four").hide();
     $(".checkout-button").show();
     $(".check-four").show();
+    $(".diamond-four").css("background-color", "#624E78");
+    $(".rectangle-four").css("background-color", "#e6e6fa");
+    $(".number-four").css("color", "white");
   });
   $("#accessories-package-two-button").click(function(){
     $("#accessories-package-two-button").hide();
@@ -78,5 +127,8 @@ $(document).ready(function(){
     $(".number-four").hide();
     $(".checkout-button").show();
     $(".check-four").show();
+    $(".diamond-four").css("background-color", "#624E78");
+    $(".rectangle-four").css("background-color", "#e6e6fa");
+    $(".number-four").css("color", "white");
   });
 });
