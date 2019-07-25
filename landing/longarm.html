@@ -61,31 +61,49 @@
 		</nav>
 		<!--end of longarm landing navbar-->
 
+
+
+		<!--Start of Main body container with machine info and technical info pills-->
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-5 col-md-5 col-sm-6 text">
-					<h3>Longarm Machine #1</h3>
-					<p>longarm picture</p>
+				<div class="col-lg-5 col-md-5 col-sm-12" style="margin: auto;">
+					<img class="img-fluid" src="../assets/images/machines/machine-placeholder.png">
 				</div>
-				<div class="col-lg-7 col-md-7 col-sm-6">
-					<h3>Information</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium quis quam vitae finibus.
-						Integer ut turpis fermentum, vestibulum sapien eu, elementum libero. Nulla a consequat urna. Curabitur eu
-						tortor nisl. Vivamus dictum augue magna, a dignissim nisl mollis vel.<br>
-						<a href="../shopping/longarm.html">
-							<button type="button" style="margin-top: 10px;" class="btn btn-primary">CTA #1</button>
-						</a></p>
+				<div class="col-lg-7 col-md-7 col-sm-12">
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+								role="tab" aria-controls="pills-home" aria-selected="true">OVERVIEW</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+								role="tab" aria-controls="pills-profile" aria-selected="false">TECHNICAL INFO</a>
+						</li>
+
+					</ul>
+					<div class="col tab-content" id="pills-tabContent">
+						<div class="col tab-pane fade show active" id="pills-home" role="tabpanel"
+							aria-labelledby="pills-home-tab" style="text-decoration: none;">
+							<p>DYNASTY A4</p>
+							<p>WITH ADJUSTABLE HANDLEBARS & LIGHT PACKAGE</p>
+							<P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus non justo
+								tincidunt eleifend. Nam sit amet dolor sed odio consectetur convallis. Sed purus nulla,
+								gravida sed eleifend sit amet, lacinia eu velit. Quisque quis nisi sed odio imperdiet
+								volutpat. Vivamus ornare finibus nibh. Morbi vitae massa euismod, pulvinar lorem dictum,
+								cursus lacus. Suspendisse id magna non tellus scelerisque condimentum vel quis arcu.
+								Suspendisse mollis in ligula non feugiat. Pellentesque pulvinar pharetra tortor ut
+								ornare. Morbi dapibus viverra ex tristique dignissim.</P>
+							<p>MACHINE ONLY PRICE <span>$3,799</span></p>
+							<button type="button" class="btn btn-primary">CUSTOMIZE</button>
+							<p>NEED HELP WITH YOUR PURCHASE? CALL 888-888-8888</p>
+						</div>
+						<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+							aria-labelledby="pills-profile-tab">...</div>
+					</div>
 				</div>
 			</div>
 		</div>
-
-		<!--start of footer-->
-		<footer class="footer">
-			<div class="container text-center">
-				<span class="text-muted" style="position: relative; top: 20px;">BW Sterling Development & Design</span>
-			</div>
-		</footer>
-		<!--end of footer-->
+		<!--End of mainbody container-->
 
 	</div>
 	<!--end of body-wrapper-->
