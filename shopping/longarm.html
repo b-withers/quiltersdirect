@@ -8,6 +8,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 	<!-- External css -->
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/shopping.css">
@@ -78,17 +81,6 @@
 
 		<!-- Start of Shopping Selection -->
 		<div class="container mainbody">
-				
-			<button
-				class="snipcart-add-item"
-				data-item-id="2"
-				data-item-name="Bacon"
-				data-item-price="3.00"
-				data-item-weight="20"
-				data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html#"
-				data-item-description="Some fresh bacon">
-						Buy bacon
-		</button>
 			<!-- Shopping Header -->
 			<div class="row justify-content-center">
 				<div class="col-lg-12 col-md-12 col-sm-12 text-center shopping-header">
@@ -96,9 +88,9 @@
 				</div>
 			</div>
 
-			<!-- Shopping Diamonds Row -->
+			<!-- Shopping Circles Row -->
 			<div class="row justify-content-center">
-				<div class="col-lg-2 offset-lg-1 steps-wrapper">
+				<div class="col-lg-2 steps-wrapper">
 					<div class="circle circle-one">
 						<div class="number number-one">1</div>
 						<div class="check check-one">
@@ -150,13 +142,29 @@
 			</div>
 
 			<!-- Shopping Longarms -->
-			<div class="row justify-content-center">
-				<!-- Dyna Sitdown -->
-				<div class="col-lg-12 col-md-12 col-sm-12 text-center box dyna-sitdown">
-						DYNA SITDOWN
-					<button
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12"></div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="customize-selection-header-wrapper">
+						<div class="customize-selection-header">
+							MACHINE
+						</div>
+						<div class="customize-selection-sub-header">
+							WHICH MACHINE IS RIGHT FOR YOU?
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Dyna Sitdown -->
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 customize-image">
+					<img src="https://via.placeholder.com/150x150">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 customize-selection dyna-sitdown">
+					<div class="customize-selection-button-wrapper">
+						<button
 						id="dyna-sitdown-button"
-						class="snipcart-add-item"
+						class="snipcart-add-item customize-purchase-button"
 						data-item-id="1-1"
 						data-item-name="DYNA SITDOWN"
 						data-item-price="1999.00"
@@ -168,16 +176,23 @@
 						data-item-width=""
 						data-item-length=""
 						data-item-height=""
-					>
-						SELECT
+						>
+						<span class="customize-purchase-button-name">Dyna Sitdown</span>
+						<span class="customize-purchase-button-price">+ $1,999</span>
 					</button>
 				</div>
-				<!-- Dynasty A4 -->
-				<div class="col-lg-12 col-md-12 col-sm-12 text-center box dynasty-a4">
-						DYNASTY A4
+			</div>
+		</div>
+		<!-- Dynasty A4 -->
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 customize-image">
+				<img src="https://via.placeholder.com/150x150">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 customize-selection dynasty-a4">
+				<div class="customize-selection-button-wrapper">
 					<button
 						id="dynasty-a4-button"
-						class="snipcart-add-item"
+						class="snipcart-add-item customize-purchase-button"
 						data-item-id="1-9"
 						data-item-name="DYNASTY A4"
 						data-item-price="2999.00"
@@ -190,32 +205,38 @@
 						data-item-length=""
 						data-item-height=""
 					>
-						SELECT
-					</button>
-				</div>
-				<!-- Dynasty A4 Upgrade Package -->
-				<div class="col-lg-12 col-md-12 col-sm-12 text-center box dynasty-a4-upgrade-package">
-						DYNASTY A4 WITH ADJ HANDLEBAR & LIGHT PKG
-					<button
-						id="dynasty-a4-upgrade-package-button"
-						class="snipcart-add-item"
-						data-item-id="1-21"
-						data-item-name="DYNASTY A4 WITH ADJ HANDLEBAR & LIGHT PKG"
-						data-item-price="3799.00"
-						data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html"
-						data-item-description="Dynasty A4 Long Arm Quilting Machine w/ Adjustable Handlebar & Light Package"
-						data-item-image=""
-						data-item-category=""
-						data-item-weight=""
-						data-item-width=""
-						data-item-length=""
-						data-item-height=""
-					>
-						SELECT
+						<span class="customize-purchase-button-name">DYNASTY A4</span>
+						<span class="customize-purchase-button-price">+ $2,999</span>
 					</button>
 				</div>
 			</div>
-
+		</div>
+		<!-- Dynasty A4 Upgrade Package -->
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 customize-image">
+				<img src="https://via.placeholder.com/150x150">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 customize-selection dynasty-a4-upgrade-package">
+				<button
+					id="dynasty-a4-upgrade-package-button"
+					class="snipcart-add-item customize-purchase-button"
+					data-item-id="1-21"
+					data-item-name="DYNASTY A4 WITH ADJ HANDLEBAR & LIGHT PKG"
+					data-item-price="3799.00"
+					data-item-url="https://b-withers.github.io/quiltersdirect/shopping/longarm.html"
+					data-item-description="Dynasty A4 Long Arm Quilting Machine w/ Adjustable Handlebar & Light Package"
+					data-item-image=""
+					data-item-category=""
+					data-item-weight=""
+					data-item-width=""
+					data-item-length=""
+					data-item-height=""
+				>
+					<span class="customize-purchase-button-name">Dynasty A4 With Adjustable Handlebar and Lights</span>
+					<span class="customize-purchase-button-price">+ $3,799</span>
+				</button>
+			</div>
+		</div>
 			<!-- Shopping Frames -->
 			<div class="row justify-content-center">
 				<!-- Dyna Sitdown Frame -->

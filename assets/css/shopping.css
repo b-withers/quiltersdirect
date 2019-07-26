@@ -1,3 +1,14 @@
+:root {
+  --pinkOne: #E4AAB9;
+  --pinkTwo: #B76B79;
+  --purpleOne: #7E57C5;
+  --purpleTwo: #624C79;
+  --purpleThree: #3F2B56;
+  --grey: #58595B;
+  --fontOne: 'Playfair Display', serif;
+  --fontTwo: 'Montserrat', sans-serif;
+}
+
 .circle {
   width: 50px;
   height: 50px;
@@ -61,4 +72,39 @@
 
 .warranty {
   display: none;
+}
+
+
+/* New Stuff 07-26-2019 */
+
+.customize-purchase-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid var(--grey);
+  background-color: white;
+  color: var(--grey);
+  font-family: var(--fontTwo);
+  font-size: 16px;
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.customize-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customize-selection-header-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--fontTwo);
+  color: var(--purpleThree);
+}
+
+.customize-selection-header {
+  font-weight: 700;
 }
