@@ -219,6 +219,20 @@ a:visited {
     border-width: 5px;
   }
 
+  .button-purple, #pills-home-tab{
+	  background-color: #3f2e56;
+	  border-color: #3f2e56;
+	  border-radius: 0px;
+	  font-size: .85rem;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .button-purple:hover{
+	  background-color: #624E78;
+	  border-color: #624E78;
+  }
+
 /* TABLET MEDIA QUERIES */
 @media only screen and (max-width: 1000px) {
 	.box {
