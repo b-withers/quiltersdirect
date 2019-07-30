@@ -1,3 +1,6 @@
+// TODO:  DELETE FILE
+// THIS IS JUST A REFERENCE.  DELETE WHEN SHOPPING-LONGARM-SCRIPTS IS DONE
+
 $(document).ready(function(){
   $(".circle-one").css("background-color", "#f3d5dc");
   $(".number-one").css("color", "#624E78");
@@ -7,10 +10,13 @@ $(document).ready(function(){
 /////////////////
 // SitDown Machine Click
   $("#dyna-sitdown-button").click(function(){
-    $("#dyna-sitdown-button").hide();
-    $(".dynasty-a4").hide();
-    $(".dynasty-a4-upgrade-package").hide();
-    $(".dyna-sitdown-table").show();
+    $(".custom-package-selections").append('Dyna Sitdown, ')
+    $('.customize-selection-header').text('Tables')
+    $('.customize-selection-sub-header').text('What Table Is Right For You?')
+    $(".dyna-sitdown-machine-row").hide();
+    $(".dynasty-a4-machine-row").hide();
+    $(".dynasty-a4-upgrade-package-machine-row").hide();
+    $(".dyna-sitdown-table-row").css('display', 'flex');
     $(".number-one").hide();
     $(".check-one").show();
     $(".circle-one").css("background-color", "#624E78");
