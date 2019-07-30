@@ -43,8 +43,8 @@
   font-weight: 700;
 }
 
-/* five-simple-steps-circles */
 
+/* five-simple-steps-circles */
 .five-simple-steps-circles {
   margin-bottom: 20px;
 }
@@ -79,8 +79,8 @@
   margin-top: 10px;
 }
 
-/* row five-simple-steps-view-cart */
 
+/* row five-simple-steps-view-cart */
 .five-simple-steps-view-cart {
   margin-bottom: 40px;
 }
@@ -93,6 +93,10 @@
   background-color: var(--purpleTwo25);
   color: var(--purpleThree);
   font-family: var(--fontTwo);
+}
+
+.cart-summary {
+  text-align: center;
 }
 
 .cart-right {
@@ -112,8 +116,8 @@
   padding-right: 15px;
 }
 
-/* five-simple-steps-product */
 
+/* five-simple-steps-product */
 .five-simple-steps-product {
   margin-bottom: 100px;
 }
@@ -168,8 +172,8 @@
   font-size: 1.4em;
 }
 
-/* Hidden */
 
+/* Hidden */
 .hidden {
   display: none;
 }
