@@ -14,6 +14,7 @@
   <!-- External css -->
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/shopping-automation.css">
   <!-- Font-Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -72,22 +73,25 @@
     <!-- Start of Shopping Selection -->
     <div class="container mainbody">
       <!-- five-simple-steps-header -->
-      <div class="row five-simple-steps-header">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          Five Simple Steps To Complete Your Purchase
+      <div class="row five-simple-steps">
+        <div class="five-simple-steps-header">
+          Five Simple Steps To
+        </div>
+        <div class="five-simple-steps-sub-header">
+          CUSTOMIZE YOUR PURCHASE
         </div>
       </div>
       <!-- five-simple-steps-circles -->
       <div class="row five-simple-steps-circles">
-        <div class="col circle-wrapper justify-content-center">
+        <div class="col circle-wrapper">
           <div class="circle circle-one">
             <div class="number number-one">1</div>
             <div class="check check-one">
               <i class="fas fa-check-circle"></i>
             </div>
           </div>
-          <div class="circle-text">
-            MACHINE
+          <div class="circle-text circle-text-one">
+            AUTOMATION
           </div>
         </div>
         <div class="col circle-wrapper">
@@ -97,8 +101,8 @@
               <i class="fas fa-check-circle"></i>
             </div>
           </div>
-          <div class="circle-text">
-            FRAME
+          <div class="circle-text circle-text-two">
+            MACHINE
           </div>
         </div>
         <div class="col circle-wrapper">
@@ -108,8 +112,8 @@
               <i class="fas fa-check-circle"></i>
             </div>
           </div>
-          <div class="circle-text">
-            AUTOMATION
+          <div class="circle-text circle-text-three">
+            FRAME
           </div>
         </div>
         <div class="col circle-wrapper">
@@ -119,7 +123,7 @@
               <i class="fas fa-check-circle"></i>
             </div>
           </div>
-          <div class="circle-text">
+          <div class="circle-text circle-text-four">
             ACCESSORIES
           </div>
         </div>
@@ -130,18 +134,18 @@
               <i class="fas fa-check-circle"></i>
             </div>
           </div>
-          <div class="circle-text">
+          <div class="circle-text circle-text-five">
             WARRANTY
           </div>
         </div>
       </div>
       <!-- five-simple-steps-view-cart -->
       <div class="row five-simple-steps-view-cart">
-        <div class="cart-left">
+        <div class="col-lg-8 col-md-8 col-sm-12 cart-left">
           <div class="cart-header">YOUR CUSTOM PACKAGE</div>
           <div class="cart-item-names"></div>
         </div>
-        <div class="cart-right">
+        <div class="col-lg-4 col-md-4 col-sm-12 cart-right">
           <div class="snipcart-summary cart-summary">
             PACKAGE TOTAL
             <div class="snipcart-total-price cart-price"></div>
@@ -149,27 +153,647 @@
           <button class="snipcart-checkout cart-button">VIEW CART</button>
         </div>
       </div>
+
       <!-- five-simple-steps-product -->
-      <div class="row five-simple-steps-product">
-        <div class="product-left">
+
+      <!-- AUTOMATION -->
+      <!-- Automation One-->
+      <div class="row five-simple-steps-product" id="automation-one">
+        <div class="col product-left">
           <div class="product-image">
-            <img src="https://via.placeholder.com/200x200">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
           </div>
         </div>
-        <div class="product-right">
+        <div class="col product-right">
           <div class="product-information">
             <div class="product-buttons-wrapper">
               <button class="product-button">OVERVIEW</button>
               <button class="product-button">TECHNICAL INFO</button>
-              <button class="product-button product-choose">CHOOSE</button>
+              <button
+                id="automation-one-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-1"
+                data-item-name="GRACE COMPANY QUILT MOTION QCT5 BEGINNINGS"
+                data-item-price="3499.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Grace Company Quilt Motion Quilter's Creative Touch 5 Beginnings"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
             </div>
-            <div class="product-header"></div>
-            <div class="product-sub-header"></div>
-            <div class="product-description"></div>
-            <div class="product-price"><span class="price"></span></div>
+            <div class="product-header">GRACE COMPANY QUILT MOTION QCT5 BEGINNINGS</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$3499.00</span></div>
           </div>
         </div>
       </div>
+      <!-- Automation Two -->
+      <div class="row five-simple-steps-product" id="automation-two">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="automation-two-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-2"
+                data-item-name="GRACE COMPANY QUILT MOTION QCT5 PRO"
+                data-item-price="3499.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Grace Company Quilt Motion Quilter's Creative Touch 5 Pro"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">GRACE COMPANY QUILT MOTION QCT5 PRO</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$3499.00</span></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Machines -->
+      <!-- Machine One -->
+      <div class="row five-simple-steps-product hidden" id="machine-one">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="machine-one-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-5"
+                data-item-name="DYNASTY A4"
+                data-item-price="2999.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Dynasty A4 Long Arm Quilting Machine"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY A4</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$2,999</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- Machine Two -->
+      <div class="row five-simple-steps-product hidden" id="machine-two">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="machine-two-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-6"
+                data-item-name="DYNASTY A4 WITH ADJ HANDLEBAR & LIGHT PKG"
+                data-item-price="3799.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Dynasty A4 Long Arm Quilting Machine w/ Adjustable Handlebar & Light Package"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY A4</div>
+            <div class="product-sub-header"><em>WITH ADJ HANDLEBAR & LIGHT PKG</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">MACHINE ONLY PRICE<span class="price">$3,799</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- Machine Skip -->
+      <div class="row five-simple-steps-product hidden" id="machine-skip">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-skip">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button id="machine-skip-button" class="product-button product-choose">
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">SKIP MACHINE</div>
+            <div class="product-sub-header"><em>SUB HEADER</em></div>
+            <div class="product-description">TODO:  Need to have this look different then the others</div>
+            <div class="product-price">PRICE<span class="price">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Frames -->
+      <!-- frame One -->
+      <div class="row five-simple-steps-product hidden" id="frame-one">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-one-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-11"
+                data-item-name="DYNASTY INCLUDED GRACE Q-ZONE HOOP QUILTING FRAME"
+                data-item-price="0.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Grace Company Q-Zone Hoop Quilting Frame"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY INCLUDED GRACE Q-ZONE HOOP QUILTING FRAME</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Two -->
+      <div class="row five-simple-steps-product hidden" id="frame-two">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-two-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-12"
+                data-item-name="DYNASTY ADD-ON - PHOENIX FRAME 10'"
+                data-item-price="500.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Phoenix Frame 10'"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY ADD-ON - PHOENIX FRAME 10'</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$500</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Three -->
+      <div class="row five-simple-steps-product hidden" id="frame-three">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-three-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-13"
+                data-item-name="DYNASTY ADD-ON - PHOENIX FRAME 12'"
+                data-item-price="500.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Phoenix Frame 12'"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY ADD-ON - PHOENIX FRAME 12'</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$500</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Four -->
+      <div class="row five-simple-steps-product hidden" id="frame-four">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-four-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-35"
+                data-item-name="GRACE Q-ZONE HOOP QUILTING FRAME"
+                data-item-price="1299.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Grace Company Q-Zone Hoop Quilting Frame"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">GRACE Q-ZONE HOOP QUILTING FRAME</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$1,299</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Five -->
+      <div class="row five-simple-steps-product hidden" id="frame-five">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-five-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-36"
+                data-item-name="PHOENIX FRAME 10'"
+                data-item-price="1799.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Phoenix Frame 10'"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">PHOENIX FRAME 10'</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$1,799</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Six -->
+      <div class="row five-simple-steps-product hidden" id="frame-six">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="frame-six-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-37"
+                data-item-name="PHOENIX FRAME 12'"
+                data-item-price="1799.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Phoenix Frame 12'"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">PHOENIX FRAME 12'</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$1,799</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- frame Skip -->
+      <div class="row five-simple-steps-product hidden" id="frame-skip">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button id="frame-skip-button" class="product-button product-choose">
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">SKIP FRAME</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">TODO:  Need to have this look different then the others</div>
+            <div class="product-price">PRICE<span class="price">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ACCESSORIES -->
+      <!-- accessories One -->
+      <div class="row five-simple-steps-product hidden" id="accessories-one">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="accessories-one-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-14"
+                data-item-name="DYNASTY ESSENTIAL PACKAGE"
+                data-item-price="99.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="1 Box (100 Qty) Needles Size 110/18 4.0 & 20 Qty Bobbins"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY ESSENTIAL PACKAGE</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$99.00</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- accessories Two -->
+      <div class="row five-simple-steps-product hidden" id="accessories-two">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="accessories-two-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-15"
+                data-item-name="DYNASTY CREATIVE PACKAGE"
+                data-item-price="199.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="1 Box (100 Qty) Needles Size 110/18 4.0, 20 Qty Bobbins, Extra Bobbin Case, Open Toe Stippling Foot"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY CREATIVE PACKAGE</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$199.00</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- accessories Three -->
+      <div class="row five-simple-steps-product hidden" id="accessories-three">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="accessories-three-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-16"
+                data-item-name="DYNASTY ULTIMATE PACKAGE"
+                data-item-price="349.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="1 Box (100 Qty) Needles Size 110/18 4.0, 20 Qty Bobbins, Extra Bobbin Case, Open Toe Stippling Foot, Ruler Base Extension Table, Ruler/Template Foot"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">DYNASTY ULTIMATE PACKAGE</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$349.00</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- accessories SKIP-->
+      <div class="row five-simple-steps-product hidden" id="accessories-skip">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button id="accessories-skip-button" class="product-button product-choose">
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">SKIP ACCESSORIES</div>
+            <div class="product-sub-header"><em>SUB HEADING</em></div>
+            <div class="product-description">TODO:  Need to have this look different then the others</div>
+            <div class="product-price">PRICE<span class="price">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+      
+			
+      <!-- WARRANTY -->
+      <!-- Warranty One-->
+      <div class="row five-simple-steps-product hidden" id="warranty-one">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="warranty-one-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-18"
+                data-item-name="FREE MONEY BACK GUARANTEE & WARRANTY"
+                data-item-price="0.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Free 30 Day Money Back Guarantee; 90 Day Warranty"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">FREE MONEY BACK GUARANTEE & WARRANTY</div>
+            <div class="product-sub-header"><em>Free 30 Day Money Back Guarantee; 90 Day Warranty</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$0.00</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- Warranty Two -->
+      <div class="row five-simple-steps-product hidden" id="warranty-two">
+        <div class="col product-left">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" class="mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <div class="col product-right">
+          <div class="product-information">
+            <div class="product-buttons-wrapper">
+              <button class="product-button">OVERVIEW</button>
+              <button class="product-button">TECHNICAL INFO</button>
+              <button
+                id="warranty-two-button"
+                class="snipcart-add-item product-button product-choose"
+                data-item-id="3-19"
+                data-item-name="WARRANTY UPGRADE"
+                data-item-price="599.00"
+                data-item-url="https://b-withers.github.io/quiltersdirect/shopping/automation.html"
+                data-item-description="Upgrade to 30 Day Money Back Guarantee; 1 Year Warranty"
+                data-item-image=""
+                data-item-category=""
+                data-item-weight=""
+                data-item-width=""
+                data-item-length=""
+                data-item-height=""
+              >
+                CHOOSE
+              </button>
+            </div>
+            <div class="product-header">WARRANTY UPGRADE</div>
+            <div class="product-sub-header"><em>Upgrade to 30 Day Money Back Guarantee; 1 Year Warranty</em></div>
+            <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda, velit possimus enim amet illum voluptatem ipsam adipisci nesciunt omnis quidem exercitationem iure optio aperiam dolores ducimus minima magnam non vel quisquam suscipit? Velit cum perspiciatis quidem? Ipsum, pariatur est.</div>
+            <div class="product-price">PRICE<span class="price">$599.00</span></div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <!-- End of Shopping Selection -->
 
@@ -185,6 +809,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="../assets/javascript/shopping-automation-scripts.js"></script>
 </body>
 
 </html>
