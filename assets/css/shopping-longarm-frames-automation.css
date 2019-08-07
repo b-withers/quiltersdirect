@@ -3,28 +3,28 @@
   --fontTwo: 'Montserrat', sans-serif;
   
   --pinkOne: rgba(228, 170, 185, 1.0);
-  --pinkOne50: rgba(228, 170, 185, .50);
-  --pinkOne25: rgba(228, 170, 185, .25);
+  --pinkOne50: #F2D3DB;
+  --pinkOne25: #F8E9EC;
   
   --pinkTwo: rgba(183, 107, 121, 1.0);
-  --pinkTwo50: rgba(183, 107, 121, .50);
-  --pinkTwo25: rgba(183, 107, 121, .25);
+  --pinkTwo50: #DCB3B9;
+  --pinkTwo25: #EED8DB;
   
   --purpleOne: rgba(126, 87, 197, 1.0);
-  --purpleOne50: rgba(126, 87, 197, .50);
-  --purpleOne25: rgba(126, 87, 197, .25);
+  --purpleOne50: #C0A8E3;
+  --purpleOne25: #DFD2F0;
   
   --purpleTwo: rgba(98, 76, 121, 1.0);
-  --purpleTwo50:  rgba(98, 76, 121, .50);
-  --purpleTwo25: rgba(98, 76, 121, .25);
+  --purpleTwo50:  #ADA0B9;
+  --purpleTwo25: #D5CEDB;
   
   --purpleThree:  rgba(63, 43, 86, 1.0);
-  --purpleThree50: rgba(63, 43, 86, .50);
-  --purpleThree25: rgba(63, 43, 86, .25);
+  --purpleThree50: #9A8DA6;
+  --purpleThree25: #CBC4D1;
   
   --grey: rgba(88, 89, 91, 1.0);
-  --grey50: rgba(88, 89, 91, .5);
-  --grey25: rgba(88, 89, 91, .25);
+  --grey50: #A7A9AC;
+  --grey25: #D1D3D4;
 }
 
 
@@ -39,8 +39,16 @@
   font-family: var(--fontTwo);
 }
 
+.five-simple-steps-header {
+  font-family: var(--fontOne);
+  font-size: 2rem;
+}
+
 .five-simple-steps-sub-header {
   font-weight: 700;
+  font-size: 2rem;
+  margin-top: -10px;
+  text-align: center;
 }
 
 
@@ -133,6 +141,7 @@
 }
 
 .product-buttons-wrapper {
+  display: flex;
   margin-bottom: 15px;
 }
 
@@ -176,4 +185,25 @@
 /* Hidden */
 .hidden {
   display: none;
+}
+
+
+/* TODO:  Might look good to only have circle 1 show then 2, 3 and so forth depending on which step they're doing.  Since it currently takes up to much space showing all of them. */
+/* TODO:  Maybe move the CHOOSE button down near the price for mobile. */
+@media screen and (max-width: 600px) {
+  .product-left {
+    flex-basis: auto;
+  }
+  .product-buttons-wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-button {
+    width: 150px;
+    margin-right: 0px;
+  }
+  .product-right {
+    text-align: center;
+  }
 }
